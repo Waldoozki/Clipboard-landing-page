@@ -175,6 +175,9 @@ body {
 /* RESPONSIVE--DESKTOP */
 @media (min-width: 768px) {
   /* --HERO */
+  .hero {
+    background-image: url('./images/bg-header-desktop.png');
+  }
   .hero__container, .track__title, .track__paragraph, .access__main, .mac {
     max-width: 615px;
     margin: 0 auto;
